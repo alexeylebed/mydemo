@@ -1,6 +1,20 @@
-strong{
-    display: inline;
+body{
+    font-family: Raleway , sans-serif;
 }
 a{
     margin-left: 5px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.rightblock{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.leftblock{
+    margin-left: 20px;
 }
