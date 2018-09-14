@@ -10,6 +10,7 @@ html{
 .container{
     width: 960px;
     margin: auto;
+    background-color: white;
 }
 header{
     box-shadow: 0 0 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.23);
@@ -77,3 +78,94 @@ h2{
 .resps{
     font-size: 17px;
 }
+.portfolio{
+    margin-top: 50px;
+}
+.jobs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.job{
+    margin: 30px 0 30px 0;
+    padding-bottom: 4px;
+}
+.job:hover{
+    border-bottom:  4px solid #FFD837; 
+    border-radius: 1px;
+    padding-bottom: 0;
+}
+.jobicon{
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+}
+.desc{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.contact{
+    margin-top: 50px;
+}
+.form{
+    margin-left: 20px;
+}
+.stinput{
+    width: 920px;
+    border: 1px #607D8B solid;
+    height: 28px;
+    outline: none;
+    font-size: 14px;
+    color: #263238;
+    border-radius: 3px;
+}
+.stinput::placeholder{
+    font-size: 14px;
+}
+.stinput:focus::placeholder { 
+    color:transparent; 
+}
+.stinput:focus{ 
+    font-size: 14px;
+    color: #263238;
+}
+textarea{
+    width: 920px;
+    border: 1px #607D8B solid;
+    outline: none;
+    font-size: 14px;
+    color: #263238;
+    border-radius: 3px;
+}
+textarea:focus::placeholder { 
+    color:transparent; 
+}
+textarea::placeholder{
+    font-size: 14px;
+}
+textarea:focus{ 
+    font-size: 14px;
+    color: #263238;
+}
+.inputlabel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.actionbutton{
+    margin: 20px 20px 20px 0;
+    height: 50px;
+    width: 125px;
+    background-color: #FFD837;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 15px;
+    color: black;
+
+}
+.actionbutton:focus{
+    outline: none;
+}
+
+
