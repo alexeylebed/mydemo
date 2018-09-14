@@ -1,20 +1,79 @@
 body{
-    font-family: Raleway , sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #263238;
 }
-a{
-    margin-left: 5px;
-}
-h1{
-    font-size: 30px;
-    text-align: center;
+html{
+    margin: 0;
+    background-color: #455A64;
 }
 .container{
+    width: 960px;
+    margin: auto;
+}
+header{
+    box-shadow: 0 0 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.23);
+    margin-top: -10px;
+    background-color: white;
+}
+.navbar{
     display: flex;
+    justify-content: space-between;
+    height: 85px;
+    margin-top: 10px;
 }
-.rightblock{
+.avatarimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+.navelement{
+    line-height: 85px;
+    padding: 0 30px 0 30px;
+    font-size: 18px;
+    height: 81px;
+    display: inline-block;
+    text-decoration: none;
+    color: #263238;
+    text-transform: uppercase;
+}
+#about{
+    border-bottom: 4px solid #FFD837;
+    /* font-weight: 600; */
+}
+.navelement:nth-child(3){
+    margin-right: 0;
+}
+.avatar{
+    position: relative;
+}
+.avname{
+    font-size: 30px;
+    margin-left: 15px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 200px;
+}
+.about{
     margin-top: 50px;
-    margin-left: 20px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.16), 0 0 6px rgba(255, 255, 255, 0.23);
+    border-radius: 3px;
 }
-.leftblock{
-    margin-left: 20px;
+h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 20px 20px 0 20px;
+    padding-top: 20px;
+}
+.descriprion{
+    padding: 15px;
+    font-size: 14px;
+    margin: 0;
+}
+.resps{
+    font-size: 17px;
 }
