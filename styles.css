@@ -1,16 +1,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
     color: #263238;
 }
 html{
-    margin: 0;
     background-color: #455A64;
 }
 .container{
     width: 960px;
     margin: auto;
     background-color: white;
+    border-radius: 3px;
 }
 header{
     box-shadow: 0 0 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.23);
@@ -69,6 +68,7 @@ h2{
     font-weight: 500;
     margin: 20px 20px 0 20px;
     padding-top: 20px;
+    font-size: 19px;
 }
 .descriprion{
     padding: 15px;
@@ -123,6 +123,7 @@ h2{
 }
 .stinput::placeholder{
     font-size: 14px;
+    margin-left: 3px;
 }
 .stinput:focus::placeholder { 
     color:transparent; 
@@ -144,6 +145,7 @@ textarea:focus::placeholder {
 }
 textarea::placeholder{
     font-size: 14px;
+    margin-left: 3px;
 }
 textarea:focus{ 
     font-size: 14px;
@@ -167,5 +169,3 @@ textarea:focus{
 .actionbutton:focus{
     outline: none;
 }
-
-
